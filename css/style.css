@@ -41,19 +41,17 @@ main a{
     height: 100vh;
 }
 
-.left-login{
-    background-color: white;
+.cad{
+    height: 70vh;
 }
-
-
-.right-login{
-    background-color: azure;
-
-}
-
 
 .input-login{
     height: 48px;
+}
+
+.input-cad{
+    height: 40px;
+    width: 256px;
 }
 
 .input-login::placeholder{
@@ -67,6 +65,11 @@ main a{
 
 #btn-login{
     width: 100%;
+    margin-bottom: 16px;
+}
+
+#btn-cad{
+    width: 25%;
     margin-bottom: 16px;
 }
 
