@@ -7,6 +7,7 @@
 main{
     width: 100vw;
     height: 100vh;
+    background-color: aliceblue;
 }
 
 .links{
@@ -25,8 +26,8 @@ main{
     padding: 16px 32px;
 }
 
-.login{
-    border: 1px solid black ;
+main a{
+    text-decoration: none;
 }
 
 .login h1{
@@ -35,11 +36,47 @@ main{
 }
 
 
-
 .right-login, 
 .left-login{
-    height: 80vh;
+    height: 100vh;
 }
+
+.left-login{
+    background-color: white;
+}
+
+
+.right-login{
+    background-color: azure;
+
+}
+
+
+.input-login{
+    height: 48px;
+}
+
+.input-login::placeholder{
+    font-size: 12pt;
+}
+
+#reset-pass{
+    margin-top:16px;
+    margin-bottom: 16px;
+}
+
+#btn-login{
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.label-login,
+.label-senha{
+    font-size: 14pt;
+    margin-bottom: 8px;
+}
+
+
 
 
 
