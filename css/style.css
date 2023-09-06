@@ -9,16 +9,7 @@ main{
     height: 100vh;
 }
 
-.container{
-    margin: 0 auto;
-    width: 80vw;
-    display: flex;
-    justify-content: center;
-}
-
 .links{
-    width: 50%;
-    height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,3 +24,23 @@ main{
     border-radius: 5px;
     padding: 16px 32px;
 }
+
+.login{
+    border: 1px solid black ;
+}
+
+.login h1{
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+
+
+.right-login, 
+.left-login{
+    height: 80vh;
+}
+
+
+
+
