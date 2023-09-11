@@ -1,12 +1,5 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 main{
-    width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     background-color: aliceblue;
 }
 
@@ -34,7 +27,6 @@ main a{
     margin-top: 32px;
     margin-bottom: 16px;
 }
-
 
 .right-login, 
 .left-login{
