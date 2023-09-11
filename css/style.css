@@ -52,6 +52,8 @@ main a{
 .input-cad{
     height: 40px;
     width: 256px;
+    margin-left: 16px;
+    margin-right: 16px;
 }
 
 .input-login::placeholder{
@@ -79,6 +81,15 @@ main a{
     margin-bottom: 8px;
 }
 
+.termos{
+    font-size: 10pt;
+    padding-right: 80px;
+    padding-left: 80px; 
+}
+
+.input-cad{
+    padding-left: 16px;
+}
 
 
 
