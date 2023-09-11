@@ -1,5 +1,4 @@
 main{
-    min-height: 100vh;
     background-color: aliceblue;
 }
 
@@ -83,7 +82,18 @@ main a{
     padding-left: 16px;
 }
 
+.options{
+    padding-top: 15vh;
+}
 
+.op{
+    border-left: 1px solid;
+}
 
+.op a{
+    color: black;
+}
 
-
+.op:first-child{
+    border-left: 0px;
+}
