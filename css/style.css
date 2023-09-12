@@ -3,6 +3,10 @@ main{
     background-color: aliceblue;
 }
 
+main a{
+    text-decoration: none;
+}
+
 .row{
     margin-left: 0 !important;
     margin-right: 0 !important;
@@ -22,10 +26,6 @@ main{
     border: 1px solid black;
     border-radius: 5px;
     padding: 16px 32px;
-}
-
-main a{
-    text-decoration: none;
 }
 
 .login h1{
