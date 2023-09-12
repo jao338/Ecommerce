@@ -1,5 +1,11 @@
 main{
-    background-color: aliceblue;
+    padding: 0 !important;
+    background-color: white;
+}
+
+.row{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
 }
 
 .links{
@@ -88,11 +94,10 @@ main a{
 
 .options .container-fluid{
     height: 5vh;
-    background-color: #FFFFFF; 
-    border-bottom: 1px solid;
 }
 
 .options{
+    background-color: orange;
     padding-top: 15vh;
 }
 
@@ -108,11 +113,6 @@ main a{
     border-left: 0px;
 }
 
-.sec-ad{
-    padding-top: 32px;
-    padding-bottom: 32px;
-}
-
 .img-ad{
     width: 256px;
     margin-left: auto;
@@ -125,4 +125,17 @@ main a{
    
 .carousel-control-next-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+.navbar-brand a{
+    color: white;
+}
+
+.navbar-brand a img{
+    margin-right: 8px;
+}
+
+.busca input{
+    width: 600px;
+    border-radius: 50px;
 }
