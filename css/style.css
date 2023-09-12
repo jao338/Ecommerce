@@ -1,6 +1,6 @@
 main{
     padding: 0 !important;
-    background-color: white;
+    background-color: aliceblue;
 }
 
 .row{
@@ -97,7 +97,7 @@ main a{
 }
 
 .options{
-    background-color: orange;
+    background-color: rgb(255, 199, 95);
     padding-top: 15vh;
 }
 
@@ -138,4 +138,19 @@ main a{
 .busca input{
     width: 600px;
     border-radius: 50px;
+}
+
+.sec-promo{
+    background-color: white;
+}
+
+.cards{
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 32px;
+}
+
+.card{
+    margin-right: 32px;
+    margin-bottom: 32px;
 }
