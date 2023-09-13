@@ -12,6 +12,11 @@ main a{
     margin-right: 0 !important;
 }
 
+.btn-primary{
+    background-color: #ff6701 !important;
+    border: none !important;
+}
+
 .links{
     display: flex;
     justify-content: center;
@@ -89,7 +94,8 @@ main a{
 }
 
 .menu{
-    background-color: black; height: 15vh;
+    background-color: black;
+    height: 15vh;
 }
 
 .options .container-fluid{
@@ -97,16 +103,16 @@ main a{
 }
 
 .options{
-    background-color: rgb(255, 199, 95);
+    background-color: #ff6701;
     padding-top: 15vh;
 }
 
 .op{
-    border-left: 1px solid;
+    border-left: 1px solid white;
 }
 
 .op a{
-    color: black;
+    color: white;
 }
 
 .op:first-child{
@@ -144,13 +150,63 @@ main a{
     background-color: white;
 }
 
-.cards{
-    padding-left: 2%;
-    padding-right: 2%;
+.sec-promo h2{
+    padding-top: 40px;
+    margin-bottom: 16px;
+    padding-left: 64px;
+}
+
+.sec-dep{
+    background-color: white;
     padding-top: 32px;
 }
 
+.icon{
+    width: 216px;
+    height: 192px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 25%;
+    background-color: rgb(238, 243, 247);
+}
+
+.cards{
+    padding-left: 64px;
+    padding-right: 32px;
+    padding-bottom: 16px;
+}
+
 .card{
-    margin-right: 32px;
+    width: 280px !important;
+    margin-right: 16px;
     margin-bottom: 32px;
+}
+
+.stars img{
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+.stars img:last-child{
+    margin-right: 0;
+}
+
+.card-text p{
+    font-size: 10pt;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.card-text p:first-child{
+    margin-top: 16px;
+}
+
+.card-text p:last-child{
+    margin-bottom: 16px;
+}
+
+.card-text p:nth-child(2){
+    font-size: 16pt;
+    font-weight: bold;
+    color: #ff6701;
 }
