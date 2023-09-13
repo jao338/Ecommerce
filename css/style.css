@@ -147,7 +147,7 @@ main a{
 }
 
 .sec-promo{
-    background-color: white;
+    background-color: #f5f4f4;
 }
 
 .sec-promo h2{
@@ -156,38 +156,88 @@ main a{
     padding-left: 64px;
 }
 
+.sec-promo-ad{
+    background-color: #f5f4f4;
+}
+
+.sec-promo-ad h2{
+    padding-top: 40px;
+    margin-bottom: 16px;
+    padding-left: 32px;
+}
+
 .sec-dep{
-    background-color: white;
+    background-color: #f5f4f4;
     padding-top: 32px;
+    padding-bottom: 16px;
 }
 
 .icon{
-    width: 216px;
+    font-size: 12pt;
+    width: 256px;
     height: 192px;
-    padding-top: 8px;
+    padding-top: 48px;
     padding-bottom: 8px;
-    border-radius: 25%;
-    background-color: rgb(238, 243, 247);
+    border-radius: 15%;
+    background-color: white;
+    cursor: pointer;
 }
 
-.cards{
+.icon:hover{
+    box-shadow: 2px 2px 10px rgb(170, 170, 170);
+}
+
+.icon p{
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+.sec-promo .cards{
     padding-left: 64px;
     padding-right: 32px;
     padding-bottom: 16px;
 }
 
-.card{
+.sec-promo-ad .cards{
+    padding-left: 32px;
+    padding-bottom: 16px;
+}
+
+.sec-promo .card{
     width: 280px !important;
     margin-right: 16px;
     margin-bottom: 32px;
 }
 
-.stars img{
-    cursor: pointer;
-    margin-right: 8px;
+.sec-promo-ad .card{
+    width: 236px !important;
+    margin-right: 16px;
+    margin-bottom: 32px;
 }
 
-.stars img:last-child{
+.card:hover{
+    box-shadow: 2px 2px 10px rgb(170, 170, 170);
+}
+
+.sec-promo .stars img{
+    cursor: pointer;
+    margin-right: 8px;
+    width: 16px;
+    height: 16px;
+}
+
+.sec-promo-ad .stars img:last-child{
+    margin-right: 0;
+}
+
+.sec-promo-ad .stars img{
+    cursor: pointer;
+    margin-right: 8px;
+    width: 14px;
+    height: 14px;
+}
+
+.sec-promo .stars img:last-child{
     margin-right: 0;
 }
 
@@ -209,4 +259,8 @@ main a{
     font-size: 16pt;
     font-weight: bold;
     color: #ff6701;
+}
+
+.ads img{
+    margin-bottom: 64px;
 }
