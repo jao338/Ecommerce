@@ -265,7 +265,77 @@ main a{
     margin-bottom: 64px;
 }
 
+.sec-offers{
+    padding-top: 32px;
+    padding-bottom: 64px;
+    background-color: #f5f4f4;
+}
+
 .sec-offers .card:nth-child(2){
     margin-left: 64px;
     margin-right: 64px;
 }
+
+.carousel-control-prev,
+.carousel-control-next{
+    width: auto !important;
+}
+
+.sec-ad{
+    padding-bottom: 64px;
+    background-color: #f5f4f4;
+}
+
+.sec-links{
+    background-color: #f5f4f4;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.sec-links-inner{
+    padding-left: 32px;
+    padding-right: 32px;
+    margin-bottom: 16px;
+}
+
+.sec-links a{
+    margin-right: 32px;
+}
+
+.sec-links a:last-child{
+    margin-right: 0;
+}
+
+footer{
+    background-color: black;
+}
+
+.footer-row{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.footer-row a{
+    color: white;
+    font-size: 12pt;
+}
+
+.footer-row h4{
+    margin-bottom: 8px;
+    color: white;
+    font-size: 16pt;
+}
+
+.footer-row p{
+    color: white;
+    font-size: 12pt;
+}
+
+.footer-row .col-md-6{
+    padding-left: 0;
+}
+
+.footer-row .btn-primary{
+    width: 60%;
+}
+
