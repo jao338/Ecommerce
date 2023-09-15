@@ -108,7 +108,9 @@ main a{
 }
 
 .op{
-    border-right: 1px solid white;
+    font-weight: bold;
+    color: white;
+    border-right: 2px solid white;
 }
 
 .op:last-child{
@@ -171,11 +173,19 @@ main a{
 
 .sec-promo-title{
     color: white;
-    height: 6vh;
+    height: 10vh;
     background-color: #ff6701;
 }
 
 .sec-promo-body div{
+    font-size: 16pt;
+    font-weight: bold;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.sec-promo-body span{
+    font-size: 16pt;
     font-weight: bold;
     padding-left: 16px;
     padding-right: 16px;
