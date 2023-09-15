@@ -108,15 +108,15 @@ main a{
 }
 
 .op{
-    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+.op:last-child{
+    border-right: 0px solid white;
 }
 
 .op a{
     color: white;
-}
-
-.op:first-child{
-    border-left: 0px;
 }
 
 .img-ad{
@@ -460,6 +460,10 @@ footer{
     }
 
     .sec-ad .col-md-6:last-child{
+        display: none !important;
+    }
+
+    .ops:last-child{
         display: none !important;
     }
 }
