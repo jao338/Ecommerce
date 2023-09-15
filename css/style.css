@@ -133,6 +133,25 @@ main a{
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
 
+.menu-mobile{
+    display: none;
+    width: 48px;
+    height: 32px;
+}
+
+.menu-border{
+    margin-bottom: 8px;
+    width: 100%;
+    height: 4px;
+    background-color: white;
+}
+
+.navbar-brand{
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+    margin-right: 0 !important;
+}
+
 .navbar-brand a{
     color: white;
 }
@@ -143,15 +162,30 @@ main a{
 
 .busca input{
     width: 600px;
-    border-radius: 50px;
+    border-radius: 8px;
 }
 
 .sec-promo{
     background-color: #f5f4f4;
 }
 
+.sec-promo-title{
+    color: white;
+    height: 6vh;
+    background-color: #ff6701;
+}
+
+.sec-promo-body div{
+    font-weight: bold;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
 .sec-promo h2{
-    padding-top: 40px;
+    font-size: 20pt;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 32px;
     margin-bottom: 16px;
     padding-left: 64px;
 }
@@ -161,14 +195,26 @@ main a{
 }
 
 .sec-promo-ad h2{
-    padding-top: 40px;
+    font-size: 20pt;
+    padding-top: 32px;
     margin-bottom: 16px;
-    padding-left: 32px;
+    padding-left: 64px;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 .sec-dep{
     background-color: #f5f4f4;
-    padding-top: 32px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.sec-dep h2{
+    font-size: 20pt;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-left: 32px;
     padding-bottom: 16px;
 }
 
@@ -199,7 +245,7 @@ main a{
 }
 
 .sec-promo-ad .cards{
-    padding-left: 32px;
+    padding-left: 64px;
     padding-bottom: 16px;
 }
 
@@ -266,9 +312,14 @@ main a{
 }
 
 .sec-offers{
-    padding-top: 32px;
-    padding-bottom: 64px;
     background-color: #f5f4f4;
+}
+
+.sec-offers h2{
+    font-size: 20pt;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-left: 64px;
 }
 
 .sec-offers .card:nth-child(2){
@@ -282,7 +333,6 @@ main a{
 }
 
 .sec-ad{
-    padding-bottom: 64px;
     background-color: #f5f4f4;
 }
 
@@ -299,6 +349,10 @@ main a{
 }
 
 .sec-links a{
+    color: white;
+    background-color: #cccccc;
+    padding-left: 16px;
+    padding-right: 16px;
     margin-right: 32px;
 }
 
@@ -339,15 +393,46 @@ footer{
     width: 60%;
 }
 
-.teste{
+.img-ad{
     padding-left: 0 !important;
     padding-right: 0 !important;
 }
 
-.teste:nth-child(1){
+.img-ad:nth-child(1){
     padding-right: 8px !important;
 }
 
-.teste:nth-child(2){
+.img-ad:nth-child(2){
     padding-left: 8px !important;
 }
+
+.footerW{
+    background-color: white;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+@media only screen and (max-width: 995px){
+    .navbar-brand:nth-child(3){
+        display: none !important;
+    }
+    .navbar-brand:nth-child(4){
+        display: none !important;
+    }
+
+    .busca input{
+        width: 384px;
+    }
+
+    .menu-mobile{
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 770px){
+    .busca input{
+        width: 304px;
+    }
+}
+
+
