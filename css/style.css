@@ -135,7 +135,7 @@ main a{
 
 .menu-mobile{
     display: none;
-    width: 48px;
+    width: 40px;
     height: 32px;
 }
 
@@ -429,10 +429,50 @@ footer{
     }
 }
 
+
+@media only screen and (max-width: 1400px){    
+    .sec-promo .card{
+        width: 456px !important;
+    }
+
+}
+
+@media only screen and (max-width: 1200px){    
+    .sec-promo .card{
+        width: 360px !important;
+    }
+}
+
+@media only screen and (max-width: 992px){    
+    .sec-promo .card{
+        width: 280px !important;
+    }
+}
+
 @media only screen and (max-width: 770px){
     .busca input{
         width: 304px;
     }
+
+    .sec-promo .card{
+        width: 100% !important;
+        margin-right: 0 !important;
+    }
+
+    .sec-ad .col-md-6:last-child{
+        display: none !important;
+    }
 }
 
+@media only screen and (max-width: 500px){
+    .busca input{
+        width: 244px;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .busca input{
+        width: 196px;
+    }
+}
 
