@@ -127,6 +127,11 @@ main a{
     margin-right: auto;
 }
 
+.carousel-control-prev,
+.carousel-control-next{
+    position: relative !important;
+}
+
 .carousel-control-prev-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
 }
@@ -420,6 +425,16 @@ footer{
     background-color: white;
     padding-top: 32px;
     padding-bottom: 32px;
+}
+
+.marginR-8{
+    margin-right: 8px;
+}
+
+.btn-card{
+    height: 44px;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
 }
 
 @media only screen and (max-width: 995px){

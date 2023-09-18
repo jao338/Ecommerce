@@ -26,31 +26,86 @@ window.onload = function(){
 
 };
 
-card.forEach((item) =>{
-     
-    item.addEventListener('mouseout', () => {
-
-        item.innerHTML = '';
-
-    });
-
-});
-
+//Adiciona o evento de entrada de mouse que remove os itens do elemento 'card-header' e adiciona duas imagens alinhadas ao fim
 card.forEach((item) => {
 
-    item.addEventListener('mouseover', () => {
-        
-        let link = document.createElement('a');
-        let img = document.createElement('img');
-        
-        img.setAttribute('src', "assets/imgs/google.png");
-        img.setAttribute('width', '32');
-        img.setAttribute('heigth', '32');
+    item.addEventListener('mouseenter', () => {
 
-        link.append(img)
+        //Deleta o contéudo de 'card-header' e manipula as classes do elemento que definem seu alinhamento
+        item.innerHTML = '';
+        item.classList.remove('justify-content-between');
+        item.classList.add('justify-content-end');
+    
+        //Cria duas imagens e adiciona ao elemento 'link'
+        for (let index = 0; index <= 1; index++) {
+                
+            let link = document.createElement('a');
+            let img = document.createElement('img');
+            
+            img.setAttribute('src', "assets/imgs/google.png");
+            img.setAttribute('width', '32');
+            img.setAttribute('heigth', '32');
+            img.classList.add('marginR-8');
 
-        item.append(link);
+            link.append(img);
+
+            item.append(link);
+            
+        }
 
     })
 
 });
+
+//Adiciona o evento de saída de mouse que remove os itens do elemento 'card-header' e adiciona duas div's alinhadas no início e fim, respectivamente
+card.forEach((item) => {
+
+    item.addEventListener('mouseleave', () => {
+
+        //Deleta o contéudo de 'card-header' e manipula as classes do elemento que definem seu alinhamento
+        item.innerHTML = '';
+        item.classList.remove('justify-content-end');
+        item.classList.add('justify-content-between');
+
+        //Cria duas div's
+        let div1 = document.createElement('div');
+        let div2 = document.createElement('div');
+
+        //Adiciona classes as div's
+        div1.classList.add('d-flex', 'col-md-6', 'justify-content-start', 'align-items-center');
+        div2.classList.add('d-flex', 'col-md-6', 'justify-content-end', 'align-items-center', 'stars');
+
+        //Cria duas imagens e adiciona ao elemento 'div1'
+        for (let index = 0; index <= 1; index++) {
+
+            let img = document.createElement('img');
+
+            img.setAttribute('src', "assets/imgs/google.png");
+            img.setAttribute('width', '32');
+            img.setAttribute('heigth', '32');
+            img.classList.add('marginR-8');
+    
+            div1.append(img);
+            
+        }
+
+        //Cria cinco imagens e adiciona ao elemento 'div2'
+        for (let index = 0; index < 5; index++) {
+
+            let img = document.createElement('img');
+
+            img.setAttribute('src', "assets/icons/star.svg");
+    
+            div2.append(img);   
+            
+        }
+
+        //Adiciona as duas div's ao elemento "card-header"
+        item.append(div1);
+        item.append(div2);
+        
+    })
+
+});
+
+
