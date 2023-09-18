@@ -127,8 +127,8 @@ main a{
     margin-right: auto;
 }
 
-.carousel-control-prev,
-.carousel-control-next{
+.arrows .carousel-control-prev,
+.arrows .carousel-control-next{
     position: relative !important;
 }
 
@@ -432,6 +432,12 @@ footer{
 }
 
 .btn-card{
+    height: 44px;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.btn-card-promo{
     height: 44px;
     padding-top: 0 !important;
     padding-bottom: 0 !important;

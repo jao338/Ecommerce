@@ -1,5 +1,6 @@
 let span = document.querySelector(".sec-promo-body span");
 let card = document.querySelectorAll('.card-header');
+let btnCard = document.querySelectorAll('.btn-card-promo');
 
 //Pega a hora atual e adiciona ao elemento span
 function updateClock(){
@@ -95,6 +96,7 @@ card.forEach((item) => {
             let img = document.createElement('img');
 
             img.setAttribute('src', "assets/icons/star.svg");
+            img.classList.add('marginR-8');
     
             div2.append(img);   
             
@@ -108,4 +110,48 @@ card.forEach((item) => {
 
 });
 
+btnCard.forEach((item) => {
 
+    item.addEventListener('mouseenter', () => {
+
+        item.innerHTML = '';
+
+        let span = document.createElement('span');
+
+        span.innerHTML = 'Comprar';
+
+        item.append(span);
+
+    });
+});
+
+
+btnCard.forEach((item) => {
+
+
+
+    item.addEventListener('mouseleave', () => {
+
+        item.innerHTML = '';
+
+        let div1 = document.createElement('div');
+        let div2 = document.createElement('div');
+        let img = document.createElement('img');
+
+        div2.style.fontSize = '10pt';
+        img.setAttribute('src', "assets/icons/star.svg");
+        img.style.width = '28px';
+        img.style.height = '28px';
+
+        div1.classList.add('d-flex', 'col-md-2', 'justify-content-center', 'align-items-center');
+        div2.classList.add('d-flex', 'col-md-10', 'justify-content-center', 'align-items-center');
+
+        div1.append(img);
+        div2.innerHTML = 'Termina em:<br>00:00:00';
+
+        item.append(div1);
+        item.append(div2);
+
+
+    });
+});
