@@ -514,10 +514,6 @@ footer{
     height: 40px;
 }
 
-.sec-desc{
-    
-}
-
 @media only screen and (max-width: 995px){
     .navbar-brand:nth-child(3){
         display: none !important;

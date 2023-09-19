@@ -1,6 +1,7 @@
 let span = document.querySelector(".sec-promo-body span");
 let card = document.querySelectorAll('.card-header');
 let btnCard = document.querySelectorAll('.btn-card-promo');
+let arrow = document.querySelectorAll('.arrow');
 
 //Pega a hora atual e adiciona ao elemento span
 function updateClock(){
@@ -128,8 +129,6 @@ btnCard.forEach((item) => {
 
 btnCard.forEach((item) => {
 
-
-
     item.addEventListener('mouseleave', () => {
 
         item.innerHTML = '';
@@ -155,3 +154,5 @@ btnCard.forEach((item) => {
 
     });
 });
+
+
