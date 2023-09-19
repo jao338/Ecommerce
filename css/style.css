@@ -12,6 +12,15 @@ main a{
     margin-right: 0 !important;
 }
 
+.row>*{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.sec-info ul li{
+    list-style: circle;
+}
+
 .btn-primary{
     background-color: #ff6701 !important;
     border: none !important;
@@ -427,8 +436,32 @@ footer{
     padding-bottom: 32px;
 }
 
+.marginT-8{
+    margin-top: 8px !important;
+}
+
+.marginT-16{
+    margin-top: 16px !important;
+}
+
+.marginT-32{
+    margin-top: 32px !important;
+}
+
 .marginR-8{
-    margin-right: 8px;
+    margin-right: 8px !important;
+}
+
+.marginB-8{
+    margin-bottom: 8px !important;
+}
+
+.marginB-16{
+    margin-bottom: 16px !important;
+}
+
+.marginB-8{
+    margin-bottom: 8px !important;
 }
 
 .btn-card{
@@ -448,6 +481,41 @@ footer{
     padding-bottom: 0 !important;
     height: 48px;
     border-bottom: 1px solid;
+}
+
+.produto-left{
+    padding-top: 16px;
+    padding-left: 0 !important; 
+    padding-right: 16px !important;
+}
+
+.produto-right{
+    padding-left: 16px !important;
+}
+
+.input-produto{
+    height: 40px;
+    padding-left: 16px;
+    margin-right: 16px;
+}
+
+.btn-buy{
+    background-color: #ff6701 !important;
+    border: none !important;
+    color: white !important;
+    width: 228px;
+    height: 40px;
+}
+
+.btn-cart{
+    background-color: #ff6701 !important;
+    border: none !important;
+    color: white !important;
+    height: 40px;
+}
+
+.sec-desc{
+    
 }
 
 @media only screen and (max-width: 995px){
@@ -517,4 +585,3 @@ footer{
         width: 196px;
     }
 }
-
