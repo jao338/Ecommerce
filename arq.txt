@@ -1,0 +1,8 @@
+<--AJUSTES-->
+
+ - Ajustar o responsivo de todas as páginas
+ - Retirar todos os estilos em linha e criar novas classes/ids necessários
+ - Definir a paletas de cores no root do projeto
+ - Ajustar a margem e padding dos elementos de algumas páginas
+ - Escolher uma fonte adequada, bem como os seus tamanhos
+ - Adicionar conteúdo 'real' às páginas
