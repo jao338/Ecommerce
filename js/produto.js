@@ -1,12 +1,7 @@
-let arrow = document.querySelectorAll('.arrow');
-let descP = document.querySelector('.descP')
+let arrow = document.querySelector('.arrowDesc');
+let descP = document.querySelector('#desc-produto');
 
-arrow.forEach((item) => {
+arrow.addEventListener('click', () => {
 
-    item.addEventListener('click', () => {
-
-        descP.style.display = 'none'
-
-    });
 
 });

@@ -486,11 +486,11 @@ footer{
 .produto-left{
     padding-top: 16px;
     padding-left: 0 !important; 
-    padding-right: 16px !important;
+    padding-right: 32px !important;
 }
 
 .produto-right{
-    padding-left: 16px !important;
+    padding-left: 32px !important;
 }
 
 .input-produto{
@@ -511,7 +511,9 @@ footer{
     background-color: #ff6701 !important;
     border: none !important;
     color: white !important;
-    height: 40px;
+    padding: 0 !important;
+    height: 48px;
+    width: 48px;
 }
 
 @media only screen and (max-width: 995px){

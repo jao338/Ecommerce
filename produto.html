@@ -92,7 +92,7 @@
                     <div class="col"><img src="assets/imgs/google.png" width="32" height="32" alt="" class="marginB-16"></div>
                 </div>
                 <div class="d-flex align-items-center col-md-8">
-                    <img src="assets/imgs/google.png" width="196" height="196" alt="">
+                    <img src="assets/imgs/google.png" width="144" height="144" alt="">
                 </div>
             </div>
 
@@ -145,19 +145,25 @@
 
         <section class="row sec-desc marginT-32">
 
-            <div class="d-flex justify-content-start col-md-6">
-                <h2>Descrição do produto</h2>
-            </div>
-            <div class="d-flex justify-content-end  col-md-6">
-                <img src="assets/imgs/google.png" width="32" height="32" alt="" class="arrow">
-            </div>
-
             <div class="row" id="desc-produto">
-                <h4 class="marginT-8">Lorem ipsum dolor sit</h4>
-                <article class="marginT-8">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione error maiores ut autem expedita enim suscipit voluptates corporis ipsum laboriosam fuga nobis, iste animi sequi pariatur dignissimos quisquam. Quibusdam, blanditiis? <br>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil laborum consectetur sed ea. Aut dolorem rerum minus, iure sapiente voluptatibus harum dolor numquam sunt quod ad soluta illo ut totam.</p>
-                </article>
+
+                <div class="dropdown" style="width: 100%;">
+                    <div class="btn btn-secondary dropdown-toggle d-flex justify-content-between align-items-center" style="width: 100%;" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <h3>Descrição do produto</h3>
+                    </div>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="width: 100%;">
+
+                        <div class="dropdown-item">
+                            <h4>Lorem ipsum dolor sit</h4>
+                            <article class="marginT-8">
+                                <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
+                                <div class="text-wrap">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione error maiores ut autem expedita enim suscipit voluptates corporis ipsum laboriosam fuga nobis, iste animi sequi pariatur dignissimos quisquam. Quibusdam, blanditiis?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil laborum consectetur sed ea. Aut dolorem rerum minus, iure sapiente voluptatibus harum dolor numquam sunt quod ad soluta illo ut totam.</div>
+                            </article>
+                        </div>
+
+                    </div>
+
+                  </div>
             </div>
         </section>
 
@@ -167,7 +173,7 @@
                 <h2>Informações técnicas</h2>
             </div>
             <div class="d-flex justify-content-end col-md-6">
-                <img src="assets/imgs/google.png" width="32" height="32" alt="" class="arrow">
+                <img src="assets/imgs/google.png" width="32" height="32" alt="" class="arrowInfo">
             </div>
 
             <div class="row">
@@ -692,8 +698,11 @@
     </footer>
 
     </main>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+    <!--Para utilizar um menu de dropdown ou elementos dependentes de bibliotecas de javascript de terceiros é necessário importar via CDN ou npm as bibliotecas jquery, popper e bootstrap, nesta ordem-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script src="js/produto.js"></script>
 
 </body>
