@@ -17,6 +17,10 @@ main a{
     padding-right: 0 !important;
 }
 
+.sec-info{
+    height: auto;
+}
+
 .sec-info ul li{
     list-style: circle;
 }
@@ -336,6 +340,7 @@ main a{
 }
 
 .sec-offers{
+    padding-top: 32px;
     background-color: #f5f4f4;
 }
 
@@ -484,7 +489,6 @@ footer{
 }
 
 .produto-left{
-    padding-top: 16px;
     padding-left: 0 !important; 
     padding-right: 32px !important;
 }
@@ -512,8 +516,21 @@ footer{
     border: none !important;
     color: white !important;
     padding: 0 !important;
-    height: 48px;
-    width: 48px;
+    height: 40px;
+    width: 40px;
+}
+
+.sec-info{
+    height: auto;
+}
+
+.sec-desc{
+    height: auto;
+}
+
+
+.dropdown-menu{
+    transform: translate3d(0px, 56px, 0px) !important;
 }
 
 @media only screen and (max-width: 995px){

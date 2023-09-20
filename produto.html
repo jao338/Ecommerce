@@ -145,10 +145,10 @@
 
         <section class="row sec-desc marginT-32">
 
-            <div class="row" id="desc-produto">
+            <div class="row">
 
                 <div class="dropdown" style="width: 100%;">
-                    <div class="btn btn-secondary dropdown-toggle d-flex justify-content-between align-items-center" style="width: 100%;" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <div class="btn btn-secondary dropdown-toggle dropDesc d-flex justify-content-between align-items-center" style="width: 100%;" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <h3>Descrição do produto</h3>
                     </div>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="width: 100%;">
@@ -167,70 +167,72 @@
             </div>
         </section>
 
-        <section class="row sec-info">
+        <section class="row sec-info marginT-16">
 
-            <div class="d-flex justify-content-start col-md-6">
-                <h2>Informações técnicas</h2>
-            </div>
-            <div class="d-flex justify-content-end col-md-6">
-                <img src="assets/imgs/google.png" width="32" height="32" alt="" class="arrowInfo">
-            </div>
+            <div class="dropdown" style="width: 100%;">
+                <div class="btn btn-secondary dropdown-toggle dropInfo d-flex justify-content-between align-items-center" style="width: 100%;" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <h3>Informações do produto</h3>
+                </div>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="width: 100%;">
 
-            <div class="row">
-                <div><strong>Carateristicas:</strong></div>
-                <ul>
-                    <li>Marca: XXXX</li>
-                    <li>Modelo: XXXX</li>
-                </ul>
-            </div>
+                    <div class="dropdown-item">
+                        <h4><strong>Carateristicas:</strong></h4>
+                        <ul>
+                            <li>Marca - XXXX</li>
+                            <li>Modelo: XXXX</li>
+                        </ul>
+                    </div>
 
-            <div class="row">
-                <div><strong>Headphone:</strong></div>
-                <ul>
-                    <li>Driver: XXXX</li>
-                    <li>Almofadas auriculares: XXXX</li>
-                </ul>
-            </div>
+                    <div class="dropdown-item">
+                        <h4><strong>Carateristicas:</strong></h4>
+                        <ul>
+                            <li>Driver - XXXX</li>
+                            <li>Almofadas auriculares:  XXXX</li>
+                        </ul>
+                    </div>
 
-            <div class="row">
-                <div><strong>Conexões e recursos:</strong></div>
-                <ul>
-                    <li>Driver: XXXX</li>
-                    <li>Almofadas auriculares: XXXX</li>
-                </ul>
-            </div>
+                    <div class="dropdown-item">
+                        <h4><strong>Conexões e recursos:</strong></h4>
+                        <ul>
+                            <li>Marca - XXXX</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="dropdown-item">
+                        <h4><strong>Microfone:</strong></h4>
+                        <ul>
+                            <li>Marca - XXXX</li>
+                        </ul>
+                    </div>
 
-            <div class="row">
-                <div><strong>Microfone:</strong></div>
-                <ul>
-                    <li>Driver: XXXX</li>
-                    <li>Almofadas auriculares: XXXX</li>
-                </ul>
-            </div>
+                    <div class="dropdown-item">
+                        <h4><strong>Conteúdo da embalagem:</strong></h4>
+                        <ul>
+                            <li>Marca - XXXX</li>
+                        </ul>
+                    </div>
 
-            <div class="row">
-                <div><strong>Conteúdo da embalagem:</strong></div>
-                <ul>
-                    <li>Driver: XXXX</li>
-                    <li>Almofadas auriculares: XXXX</li>
-                </ul>
-            </div>
-
-            <div class="row">
-                <div><strong>Garantia:</strong></div>
-                <div>24 meses de garantia</div>
-            </div>
+                    <div class="dropdown-item">
+                        <h4><strong>Garantia:</strong></h4>
+                        <div>24 meses de garantia</div>
+                    </div>
 
 
-            <div class="row">
-                <div><strong>Peso:</strong></div>
-                <div>1265 gramas (bruto com a embalagem)</div>
-            </div>
-        </section>
+                    <div class="dropdown-item">
+                        <h4><strong>Peso:</strong></h4>
+                        <div>0000 gramas (bruto com a embalagem)</div>
+                    </div>
 
-        <section class="sec-offers">
+
+                </div>
+
+              </div>
+
+            </section>
+
+        <section class="sec-offers" style="margin-top: 32px; padding-bottom: 32px; margin-bottom: 64px;">
             <h2 style="margin-bottom: 16px;">Produtos relacionados</h2>
-            <div id="sec-offers" class="carousel slide">
+            <div id="sec-rel" class="carousel slide">
                 <div class="carousel-inner">
 
                 <div class="carousel-item active">
@@ -545,11 +547,11 @@
 
                 </div>
 
-                <button class="carousel-control-prev" type="button" data-bs-target="#sec-offers" data-bs-slide="prev">
+                <button class="carousel-control-prev" type="button" data-bs-target="#sec-rel" data-bs-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#sec-offers" data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#sec-rel" data-bs-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Next</span>
                 </button>
@@ -700,9 +702,12 @@
     </main>
 
     <!--Para utilizar um menu de dropdown ou elementos dependentes de bibliotecas de javascript de terceiros é necessário importar via CDN ou npm as bibliotecas jquery, popper e bootstrap, nesta ordem-->
+
+    <!--Para o modal funcionar corretamente é necessário também por meio do "https://.cdn.jsdelivr...."-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <script src="js/produto.js"></script>
 
 </body>
