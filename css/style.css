@@ -30,6 +30,11 @@ main a{
     border: none !important;
 }
 
+.btn-outline-primary{
+    border: 1px solid #ff6701 !important;
+    color: #ff6701 !important;
+}
+
 .links{
     display: flex;
     justify-content: center;
