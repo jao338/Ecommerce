@@ -462,12 +462,20 @@ footer{
     margin-right: 8px !important;
 }
 
+.marginR-16{
+    margin-right: 16px !important;
+}
+
 .marginB-8{
     margin-bottom: 8px !important;
 }
 
 .marginB-16{
     margin-bottom: 16px !important;
+}
+
+.marginB-32{
+    margin-bottom: 32px !important;
 }
 
 .marginB-8{
@@ -532,7 +540,6 @@ footer{
 .sec-desc{
     height: auto;
 }
-
 
 .dropdown-menu{
     transform: translate3d(0px, 56px, 0px) !important;
