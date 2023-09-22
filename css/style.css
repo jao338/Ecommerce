@@ -545,6 +545,11 @@ footer{
     transform: translate3d(0px, 56px, 0px) !important;
 }
 
+.menu-left{
+    position: absolute;
+    top: 20vh;
+}
+
 @media only screen and (max-width: 995px){
     .navbar-brand:nth-child(3){
         display: none !important;
