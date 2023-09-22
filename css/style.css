@@ -466,6 +466,10 @@ footer{
     margin-right: 16px !important;
 }
 
+.marginR-32{
+    margin-right: 32px !important;
+}
+
 .marginB-8{
     margin-bottom: 8px !important;
 }
@@ -548,7 +552,7 @@ footer{
 .options-left{
     position: absolute;
     top: 20vh;
-    height: 60vh;
+    height: 70vh;
     width: 72px;
     background-color: white;
     z-index: 999;
@@ -559,7 +563,7 @@ footer{
     position: absolute;
     top: 20vh;
     left: 0px;
-    height: 60vh;
+    height: 70vh;
     width: 72px;
     background-color: white;
     transition: all .5s;
@@ -570,7 +574,7 @@ footer{
 }
 
 .perfil{
-    height: 60vh;
+    height: 70vh;
 }
 
 @media only screen and (max-width: 995px){
