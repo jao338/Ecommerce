@@ -545,9 +545,28 @@ footer{
     transform: translate3d(0px, 56px, 0px) !important;
 }
 
-.menu-left{
+.options-left{
     position: absolute;
     top: 20vh;
+    height: 60vh;
+    width: 72px;
+    background-color: white;
+    z-index: 999;
+    cursor: pointer;
+}
+
+.options-left-ex{
+    position: absolute;
+    top: 20vh;
+    left: 0px;
+    height: 60vh;
+    width: 72px;
+    background-color: white;
+    transition: all .5s;
+}
+
+.perfil{
+    height: 60vh;
 }
 
 @media only screen and (max-width: 995px){
