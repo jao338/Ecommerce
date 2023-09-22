@@ -6,3 +6,4 @@
  - Ajustar a margem e padding dos elementos de algumas páginas
  - Escolher uma fonte adequada, bem como os seus tamanhos
  - Adicionar conteúdo 'real' às páginas
+ - Ainda é necessário testar se há ou não margens ou paddings extras em alguns elementos 
