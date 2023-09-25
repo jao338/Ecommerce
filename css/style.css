@@ -113,6 +113,15 @@ main a{
     height: 40px;
     width: 240px;
     margin-right: 32px;
+    padding-left: 16px;
+}
+
+.input-cad-full{
+    height: 40px;
+    width: 240px;
+    margin-right: 32px;
+    padding-left: 16px;
+    width: 512px;
 }
 
 .input-login::placeholder{
@@ -132,12 +141,8 @@ main a{
 
 .termos{
     font-size: 10pt;
-    padding-right: 80px;
-    padding-left: 80px; 
-}
-
-.input-cad{
-    padding-left: 16px;
+    padding-right: 0px !important;
+    padding-left: 0px !important; 
 }
 
 .menu{
@@ -212,6 +217,10 @@ main a{
 
 .navbar-brand a img{
     margin-right: 8px;
+}
+
+.span-cad{
+    width: 100% !important;
 }
 
 .busca input{
@@ -643,6 +652,30 @@ footer{
     .ops:last-child{
         display: none !important;
     }
+}
+
+@media only screen and (max-width:550px){
+    .input-cad-full{
+        width: 320px;
+        font-size: 10pt;
+    }
+
+    .input-cad{
+        width: 144px;
+        font-size: 10pt;
+    }
+
+    .termos{
+        width: 100% !important;
+        font-size: 8pt;
+        padding-left: 16px !important;
+        padding-right: 16px !important;
+    }
+
+    #btn-cad{
+        width: 70%;
+    }
+
 }
 
 @media only screen and (max-width: 500px){
