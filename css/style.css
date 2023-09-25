@@ -75,6 +75,16 @@ main a{
     width: 40px;
 }
 
+#menu-btn{
+    width: 32px;
+    height: 32px;
+}
+
+#menu-btn-logo{
+    width: 64px;
+    height: 64px;
+}
+
 .links{
     display: flex;
     justify-content: center;
@@ -291,7 +301,7 @@ main a{
 
 .icon{
     font-size: 12pt;
-    width: 256px;
+    width: 216px;
     height: 192px;
     padding-top: 48px;
     padding-bottom: 8px;
@@ -598,6 +608,35 @@ footer{
     height: 70vh;
 }
 
+
+@media only screen and (max-width: 1400px){    
+    .sec-promo .card{
+        width: 456px !important;
+    }
+}
+
+@media only screen and (max-width: 1200px){    
+    .sec-promo .card{
+        width: 360px !important;
+    }
+    .sec-dep .col-md-3:last-child{
+        display: none !important;
+    }
+
+    .sec-dep .col-md-3{
+        margin-right: 64px;
+    }
+
+    .sec-dep .col-md-3:nth-child(3){
+        margin-right: 0px;
+    }
+
+    .sec-dep1 .col:last-child{
+        display: none !important;
+    }
+
+}
+
 @media only screen and (max-width: 995px){
     .navbar-brand:nth-child(3){
         display: none !important;
@@ -615,23 +654,17 @@ footer{
     }
 }
 
-
-@media only screen and (max-width: 1400px){    
-    .sec-promo .card{
-        width: 456px !important;
-    }
-
-}
-
-@media only screen and (max-width: 1200px){    
-    .sec-promo .card{
-        width: 360px !important;
-    }
-}
-
 @media only screen and (max-width: 992px){    
     .sec-promo .card{
         width: 280px !important;
+    }
+
+    .sec-dep .col-md-3:nth-child(2){
+        display: none !important;
+    }
+
+    .sec-dep1 .col:nth-child(2){
+        display: none !important;
     }
 }
 
@@ -656,6 +689,16 @@ footer{
     .right-login,
     .left-login{
         height: 50vh !important;
+    }
+
+    #menu-btn{
+        width: 24px;
+        height: 24px;
+    }
+
+    #menu-btn-logo{
+        width: 32px;
+        height: 32px;
     }
 }
 
