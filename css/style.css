@@ -652,6 +652,11 @@ footer{
     .ops:last-child{
         display: none !important;
     }
+
+    .right-login,
+    .left-login{
+        height: 50vh !important;
+    }
 }
 
 @media only screen and (max-width:550px){
