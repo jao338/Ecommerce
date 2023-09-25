@@ -35,6 +35,46 @@ main a{
     color: #ff6701 !important;
 }
 
+#btn-login{
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+#btn-cad{
+    width: 25%;
+    margin-bottom: 16px;
+}
+
+.btn-card{
+    height: 44px;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.btn-card-promo{
+    height: 44px;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+
+.btn-buy{
+    background-color: #ff6701 !important;
+    border: none !important;
+    color: white !important;
+    width: 228px;
+    height: 40px;
+}
+
+.btn-cart{
+    background-color: #ff6701 !important;
+    border: none !important;
+    color: white !important;
+    padding: 0 !important;
+    height: 40px;
+    width: 40px;
+}
+
 .links{
     display: flex;
     justify-content: center;
@@ -82,16 +122,6 @@ main a{
 
 #reset-pass{
     margin-top:16px;
-    margin-bottom: 16px;
-}
-
-#btn-login{
-    width: 100%;
-    margin-bottom: 16px;
-}
-
-#btn-cad{
-    width: 25%;
     margin-bottom: 16px;
 }
 
@@ -485,19 +515,6 @@ footer{
 .marginB-8{
     margin-bottom: 8px !important;
 }
-
-.btn-card{
-    height: 44px;
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
-}
-
-.btn-card-promo{
-    height: 44px;
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
-}
-
 .info{
     padding-top: 0 !important;
     padding-bottom: 0 !important;
@@ -518,23 +535,6 @@ footer{
     height: 40px;
     padding-left: 16px;
     margin-right: 16px;
-}
-
-.btn-buy{
-    background-color: #ff6701 !important;
-    border: none !important;
-    color: white !important;
-    width: 228px;
-    height: 40px;
-}
-
-.btn-cart{
-    background-color: #ff6701 !important;
-    border: none !important;
-    color: white !important;
-    padding: 0 !important;
-    height: 40px;
-    width: 40px;
 }
 
 .sec-info{
