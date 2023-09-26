@@ -268,7 +268,7 @@ main a{
     font-weight: bold;
     padding-top: 32px;
     margin-bottom: 16px;
-    padding-left: 64px;
+    padding-left: 32px;
 }
 
 .sec-promo-ad{
@@ -279,24 +279,9 @@ main a{
     font-size: 20pt;
     padding-top: 32px;
     margin-bottom: 16px;
-    padding-left: 64px;
+    padding-left: 32px;
     text-transform: uppercase;
     font-weight: bold;
-}
-
-.sec-dep{
-    background-color: #f5f4f4;
-    padding-bottom: 16px;
-    padding-left: 32px;
-    padding-right: 32px;
-}
-
-.sec-dep h2{
-    font-size: 20pt;
-    text-transform: uppercase;
-    font-weight: bold;
-    padding-left: 32px;
-    padding-bottom: 16px;
 }
 
 .icon{
@@ -320,19 +305,11 @@ main a{
 }
 
 .sec-promo .cards{
-    padding-left: 64px;
-    padding-right: 32px;
-    padding-bottom: 16px;
-}
-
-.sec-promo-ad .cards{
-    padding-left: 64px;
     padding-bottom: 16px;
 }
 
 .sec-promo .card{
     width: 280px !important;
-    margin-right: 16px;
     margin-bottom: 32px;
 }
 
@@ -340,6 +317,10 @@ main a{
     width: 264px !important;
     margin-right: 16px;
     margin-bottom: 32px;
+}
+
+.sec-promo-ad .cards{
+    padding-bottom: 16px;
 }
 
 .card:hover{
@@ -608,10 +589,21 @@ footer{
     height: 70vh;
 }
 
+.drop-dep, 
+.drop-inst,
+.drop-atend,
+.footer-midia{
+    display: none !important;
+}
+
 
 @media only screen and (max-width: 1400px){    
     .sec-promo .card{
         width: 456px !important;
+    }
+
+    .ads{
+        width: 100% !important;
     }
 }
 
@@ -619,6 +611,7 @@ footer{
     .sec-promo .card{
         width: 360px !important;
     }
+
     .sec-dep .col-md-3:last-child{
         display: none !important;
     }
@@ -652,9 +645,24 @@ footer{
     .menu-mobile{
         display: block;
     }
-}
 
-@media only screen and (max-width: 992px){    
+    .sec-promo-ad .card:nth-child(1){
+        display: none !important;
+    }
+
+    .sec-promo-ad .card{
+        width: 384px !important;
+    }
+
+    .sec-promo-ad .card:nth-child(2){
+        display: none !important;
+    }
+
+
+    .sec-promo-ad .card:nth-child(3){
+        display: none !important;
+    }
+
     .sec-promo .card{
         width: 280px !important;
     }
@@ -664,6 +672,17 @@ footer{
     }
 
     .sec-dep1 .col:nth-child(2){
+        display: none !important;
+    }
+
+    .drop-dep, 
+    .drop-inst,
+    .drop-atend,
+    .footer-midia{
+        display: flex !important;
+    }
+    
+    .footer-row{
         display: none !important;
     }
 }
@@ -700,6 +719,15 @@ footer{
         width: 32px;
         height: 32px;
     }
+
+    .sec-promo-ad .ads{
+        display: none !important;
+    }
+
+    .sec-promo-ad .card{
+        margin-right: 0 !important;
+    }
+
 }
 
 @media only screen and (max-width:550px){
