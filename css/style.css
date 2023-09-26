@@ -268,7 +268,7 @@ main a{
     font-weight: bold;
     padding-top: 32px;
     margin-bottom: 16px;
-    padding-left: 32px;
+    padding-left: 64px;
 }
 
 .sec-promo-ad{
@@ -279,7 +279,7 @@ main a{
     font-size: 20pt;
     padding-top: 32px;
     margin-bottom: 16px;
-    padding-left: 32px;
+    padding-left: 64px;
     text-transform: uppercase;
     font-weight: bold;
 }
@@ -305,6 +305,8 @@ main a{
 }
 
 .sec-promo .cards{
+    padding-left: 64px;
+    padding-right: 64px;
     padding-bottom: 16px;
 }
 
