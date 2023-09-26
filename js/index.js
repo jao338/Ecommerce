@@ -2,6 +2,12 @@ let span = document.querySelector(".sec-promo-body span");
 let card = document.querySelectorAll('.card-header');
 let btnCard = document.querySelectorAll('.btn-card-promo');
 let arrow = document.querySelectorAll('.arrow');
+let dropDep = document.querySelector('.dropDep');
+let dropInst = document.querySelector('.dropInst');
+let dropAtend = document.querySelector('.dropAtend');
+let drop_dep = document.querySelector('.drop-dep');
+let drop_inst = document.querySelector('.drop-inst');
+let drop_atend = document.querySelector('.drop-atend');
 
 //Pega a hora atual e adiciona ao elemento span
 function updateClock(){
@@ -155,4 +161,34 @@ btnCard.forEach((item) => {
     });
 });
 
+
+dropDep.addEventListener('click', () => {
+
+    if(drop_dep.style.height == '296px'){
+        drop_dep.style.height = 'auto'; 
+    }else{
+        drop_dep.style.height = '296px'; 
+    } 
+
+});
+
+dropInst.addEventListener('click', () => {
+
+    if(dropInst.style.height == '152px'){
+        dropInst.style.height = 'auto'; 
+    }else{
+        dropInst.style.height = '152px'; 
+    }
+
+});
+
+dropAtend.addEventListener('click', () =>{
+
+    if(dropAtend.style.height == '256px'){
+        dropAtend.style.height = 'auto'; 
+    }else{
+        dropAtend.style.height = '256px'; 
+    }
+
+});
 
