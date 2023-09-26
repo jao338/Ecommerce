@@ -392,6 +392,10 @@ main a{
     margin-right: 64px;
 }
 
+.sec-offers .card{
+    width: 304px;
+}
+
 .carousel-control-prev,
 .carousel-control-next{
     width: auto !important;
@@ -607,6 +611,10 @@ footer{
     .ads{
         width: 100% !important;
     }
+
+    .sec-offers .card{
+        width: 280px;
+    }
 }
 
 @media only screen and (max-width: 1200px){    
@@ -628,6 +636,18 @@ footer{
 
     .sec-dep1 .col:last-child{
         display: none !important;
+    }
+       
+    .sec-offers .card:nth-child(1){
+        display: none !important;
+    }
+
+    .sec-offers .card:nth-child(2){
+        margin-left: 0px;
+    }
+
+    .sec-offers .card{
+        width: 368px;
     }
 
 }
@@ -660,7 +680,6 @@ footer{
         display: none !important;
     }
 
-
     .sec-promo-ad .card:nth-child(3){
         display: none !important;
     }
@@ -686,6 +705,14 @@ footer{
     
     .footer-row{
         display: none !important;
+    }
+
+    .sec-offers .card:nth-child(2){
+        display: none !important;
+    }
+
+    .sec-offers .card{
+        width: auto;
     }
 }
 
